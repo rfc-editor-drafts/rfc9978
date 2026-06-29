@@ -295,7 +295,7 @@ Table of Contents
    module: ietf-bfd-stability
 
      augment /rt:routing/rt:control-plane-protocols
-               /rt:control-plane-protocol/bfd:bfd/bfd-ip-sh:ip-sh
+               </rt:control-plane-protocol/bfd:bfd/bfd-ip-sh:ip-sh
                /bfd-ip-sh:sessions/bfd-ip-sh:session:
        +--rw stability?   boolean {stability}?
      augment /rt:routing/rt:control-plane-protocols
@@ -343,7 +343,7 @@ Table of Contents
    Model for Routing Management (NMDA Version)" [RFC8349], and "YANG
    Data Model for Bidirectional Forwarding Detection (BFD)" [RFC9314].
 
-   <CODE BEGINS> file "ietf-bfd-stability@2026-05-05.yang"
+   <CODE BEGINS> file "ietf-bfd-stability@2026-06-29.yang"
    module ietf-bfd-stability {
      yang-version 1.1;
      namespace "urn:ietf:params:xml:ns:yang:ietf-bfd-stability";
@@ -432,7 +432,7 @@ Table of Contents
         This version of this YANG module is part of RFC 9978; see the
         RFC itself for full legal notices.";
 
-     revision 2026-05-05 {
+     revision 2026-06-29 {
        description
          "Initial version.";
        reference

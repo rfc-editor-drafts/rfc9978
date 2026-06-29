@@ -1,0 +1,44 @@
+<![CDATA[
+module: ietf-bfd-stability
+
+  augment /rt:routing/rt:control-plane-protocols
+            </rt:control-plane-protocol/bfd:bfd/bfd-ip-sh:ip-sh
+            /bfd-ip-sh:sessions/bfd-ip-sh:session:
+    +--rw stability?   boolean {stability}?
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-ip-mh:ip-mh
+            /bfd-ip-mh:session-groups/bfd-ip-mh:session-group:
+    +--rw stability?   boolean {stability}?
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-lag:lag
+            /bfd-lag:sessions/bfd-lag:session:
+    +--rw stability?   boolean {stability}?
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-mpls:mpls
+            /bfd-mpls:session-groups/bfd-mpls:session-group:
+    +--rw stability?   boolean {stability}?
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-ip-sh:ip-sh
+            /bfd-ip-sh:sessions/bfd-ip-sh:session
+            /bfd-ip-sh:session-statistics:
+    +--ro lost-packet-count?   yang:counter64 {stability}?
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-ip-mh:ip-mh
+            /bfd-ip-mh:session-groups/bfd-ip-mh:session-group
+            /bfd-ip-mh:sessions/bfd-ip-mh:session-statistics:
+    +--ro lost-packet-count?   yang:counter64 {stability}?
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-lag:lag
+            /bfd-lag:sessions/bfd-lag:session/bfd-lag:member-links
+            /bfd-lag:micro-bfd-ipv4/bfd-lag:session-statistics:
+    +--ro lost-packet-count?   yang:counter64 {stability}?
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-lag:lag
+            /bfd-lag:sessions/bfd-lag:session/bfd-lag:member-links
+            /bfd-lag:micro-bfd-ipv6/bfd-lag:session-statistics:
+    +--ro lost-packet-count?   yang:counter64 {stability}?
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-mpls:mpls
+            /bfd-mpls:session-groups/bfd-mpls:session-group
+            /bfd-mpls:sessions/bfd-mpls:session-statistics:
+    +--ro lost-packet-count?   yang:counter64 {stability}?]]>
