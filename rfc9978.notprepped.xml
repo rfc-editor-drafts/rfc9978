@@ -12,13 +12,13 @@
   <front>
     <title abbrev="BFD Stability">Bidirectional Forwarding Detection (BFD) Stability</title>
     <seriesInfo name="RFC" value="9978"/>
-    <author fullname="Ashesh Mishra" initials="A" surname="Mishra">
+    <author fullname="Ashesh Mishra" initials="A." surname="Mishra">
       <organization>Aalyria Technologies</organization>
       <address>
         <email>ashesh@aalyria.com</email>
       </address>
     </author>
-    <author fullname="Mahesh Jethanandani" initials="M" surname="Jethanandani">
+    <author fullname="Mahesh Jethanandani" initials="M." surname="Jethanandani">
       <organization>Arrcus, Inc.</organization>
       <address>
         <postal>
@@ -27,7 +27,7 @@
         <email>mjethanandani@gmail.com</email>
       </address>
     </author>
-    <author fullname="Ankur Saxena" initials="A" surname="Saxena">
+    <author fullname="Ankur Saxena" initials="A." surname="Saxena">
       <organization>Ciena Corporation</organization>
       <address>
         <postal>
@@ -41,7 +41,7 @@
         <uri>www.ciena.com</uri>
       </address>
     </author>
-    <author fullname="Santosh Pallagatti" initials="S" surname="Pallagatti">
+    <author fullname="Santosh Pallagatti" initials="S." surname="Pallagatti">
       <organization>Zscaler</organization>
       <address>
         <postal>
@@ -53,7 +53,7 @@
         <email>santosh.pallagatti@gmail.com</email>
       </address>
     </author>
-    <author fullname="Mach(Guoyi) Chen" initials="M" surname="Chen">
+    <author fullname="Mach(Guoyi) Chen" initials="M." surname="Chen">
       <organization>Huawei</organization>
       <address>
         <email>mach.chen@huawei.com</email>

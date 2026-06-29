@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" version="3" category="exp" docName="draft-ietf-bfd-stability-21" number="9978" updates="" obsoletes="" ipr="trust200902" consensus="true" submissionType="IETF" tocInclude="true" symRefs="true" sortRefs="true" tocDepth="3" xml:lang="en" prepTime="2026-06-29T22:35:20" indexInclude="true" scripts="Common,Latin">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" version="3" category="exp" docName="draft-ietf-bfd-stability-21" number="9978" updates="" obsoletes="" ipr="trust200902" consensus="true" submissionType="IETF" tocInclude="true" symRefs="true" sortRefs="true" tocDepth="3" xml:lang="en" prepTime="2026-06-29T22:48:28" indexInclude="true" scripts="Common,Latin">
   <link href="https://datatracker.ietf.org/doc/draft-ietf-bfd-stability-21" rel="prev"/>
   <link href="https://dx.doi.org/10.17487/rfc9978" rel="alternate"/>
   <link href="urn:issn:2070-1721" rel="alternate"/>
   <front>
     <title abbrev="BFD Stability">Bidirectional Forwarding Detection (BFD) Stability</title>
     <seriesInfo name="RFC" value="9978" stream="IETF"/>
-    <author fullname="Ashesh Mishra" initials="A" surname="Mishra">
+    <author fullname="Ashesh Mishra" initials="A." surname="Mishra">
       <organization showOnFrontPage="true">Aalyria Technologies</organization>
       <address>
         <email>ashesh@aalyria.com</email>
       </address>
     </author>
-    <author fullname="Mahesh Jethanandani" initials="M" surname="Jethanandani">
+    <author fullname="Mahesh Jethanandani" initials="M." surname="Jethanandani">
       <organization showOnFrontPage="true">Arrcus, Inc.</organization>
       <address>
         <postal>
@@ -21,7 +21,7 @@
         <email>mjethanandani@gmail.com</email>
       </address>
     </author>
-    <author fullname="Ankur Saxena" initials="A" surname="Saxena">
+    <author fullname="Ankur Saxena" initials="A." surname="Saxena">
       <organization showOnFrontPage="true">Ciena Corporation</organization>
       <address>
         <postal>
@@ -35,7 +35,7 @@
         <uri>www.ciena.com</uri>
       </address>
     </author>
-    <author fullname="Santosh Pallagatti" initials="S" surname="Pallagatti">
+    <author fullname="Santosh Pallagatti" initials="S." surname="Pallagatti">
       <organization showOnFrontPage="true">Zscaler</organization>
       <address>
         <postal>
@@ -47,7 +47,7 @@
         <email>santosh.pallagatti@gmail.com</email>
       </address>
     </author>
-    <author fullname="Mach(Guoyi) Chen" initials="M" surname="Chen">
+    <author fullname="Mach(Guoyi) Chen" initials="M." surname="Chen">
       <organization showOnFrontPage="true">Huawei</organization>
       <address>
         <email>mach.chen@huawei.com</email>
@@ -1357,13 +1357,13 @@ al&gt;
     </section>
     <section anchor="authors-addresses" numbered="false" removeInRFC="false" toc="include" pn="section-appendix.e">
       <name slugifiedName="name-authors-addresses">Authors' Addresses</name>
-      <author fullname="Ashesh Mishra" initials="A" surname="Mishra">
+      <author fullname="Ashesh Mishra" initials="A." surname="Mishra">
         <organization showOnFrontPage="true">Aalyria Technologies</organization>
         <address>
           <email>ashesh@aalyria.com</email>
         </address>
       </author>
-      <author fullname="Mahesh Jethanandani" initials="M" surname="Jethanandani">
+      <author fullname="Mahesh Jethanandani" initials="M." surname="Jethanandani">
         <organization showOnFrontPage="true">Arrcus, Inc.</organization>
         <address>
           <postal>
@@ -1372,7 +1372,7 @@ al&gt;
           <email>mjethanandani@gmail.com</email>
         </address>
       </author>
-      <author fullname="Ankur Saxena" initials="A" surname="Saxena">
+      <author fullname="Ankur Saxena" initials="A." surname="Saxena">
         <organization showOnFrontPage="true">Ciena Corporation</organization>
         <address>
           <postal>
@@ -1386,7 +1386,7 @@ al&gt;
           <uri>www.ciena.com</uri>
         </address>
       </author>
-      <author fullname="Santosh Pallagatti" initials="S" surname="Pallagatti">
+      <author fullname="Santosh Pallagatti" initials="S." surname="Pallagatti">
         <organization showOnFrontPage="true">Zscaler</organization>
         <address>
           <postal>
@@ -1398,7 +1398,7 @@ al&gt;
           <email>santosh.pallagatti@gmail.com</email>
         </address>
       </author>
-      <author fullname="Mach(Guoyi) Chen" initials="M" surname="Chen">
+      <author fullname="Mach(Guoyi) Chen" initials="M." surname="Chen">
         <organization showOnFrontPage="true">Huawei</organization>
         <address>
           <email>mach.chen@huawei.com</email>
